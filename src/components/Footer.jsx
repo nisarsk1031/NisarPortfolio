@@ -1,6 +1,6 @@
 import "./Footerstyles.css"
 import React from 'react'
-import { FaFacebook, FaHome,FaInstagram,FaLinkedin,FaMailBulk,FaPhone } from "react-icons/fa"
+import { FaGithub, FaHome,FaInstagram,FaLinkedin,FaMailBulk,FaPhone } from "react-icons/fa"
 
 export const Footer = () => {
   return (
@@ -35,14 +35,21 @@ export const Footer = () => {
                     <h4>
                 <FaLinkedin size={20} 
                     style={{color:"#fff", marginRight:"1rem"}}/>
-                    nisarsk1031@gmail
+                    https://www.linkedin.com/in/nisar-shaikh-b45260247
                     </h4>
                     </div>
                     <div className="insta">
                         <h4>
                 <FaInstagram size={20} 
                     style={{color:"#fff", marginRight:"1rem"}}/>
-                    nisarsk1031@gmail
+                    lostboynik
+                    </h4>
+                    </div>
+                    <div className="github">
+                        <h4>
+                <FaGithub size={20} 
+                    style={{color:"#fff", marginRight:"1rem"}}/>
+                    nisarsk1031
                     </h4>
                     </div>
                 </div>
