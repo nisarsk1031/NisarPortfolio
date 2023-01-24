@@ -32,24 +32,32 @@ export const Footer = () => {
                 <div className="social">
                 <p>You can also connect me on:</p>
                 <div className="linkedin">
+                <a href=" https://www.linkedin.com/in/nisar-shaikh-b45260247" target="_blank">
                     <h4>
+                        
                 <FaLinkedin size={20} 
                     style={{color:"#fff", marginRight:"1rem"}}/>
-                    https://www.linkedin.com/in/nisar-shaikh-b45260247
+                    linkedin.in/Nisar-shaikh
+                    
                     </h4>
+                    </a>
                     </div>
-                    <div className="insta">
-                        <h4>
-                <FaInstagram size={20} 
-                    style={{color:"#fff", marginRight:"1rem"}}/>
-                    lostboynik
-                    </h4>
-                    </div>
+                  
                     <div className="github">
+                    <a href=" https://github.com/nisarsk1031" target="_blank">
                         <h4>
                 <FaGithub size={20} 
                     style={{color:"#fff", marginRight:"1rem"}}/>
                     nisarsk1031
+                    </h4>
+                    </a>
+                    </div>
+                    <div className="insta">
+                        <h4>
+                            
+                <FaInstagram size={20} 
+                    style={{color:"#fff", marginRight:"1rem"}}/>
+                    lostboynik
                     </h4>
                     </div>
                 </div>

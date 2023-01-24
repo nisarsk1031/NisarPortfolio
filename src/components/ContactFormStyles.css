@@ -18,3 +18,9 @@ form input, form textarea{
      border-color:aqua;
      
 }
+.sendcss{
+    background-color: yellow;
+}
+.txtar{
+    resize: none;
+}
