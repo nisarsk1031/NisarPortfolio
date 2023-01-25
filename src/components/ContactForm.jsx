@@ -10,14 +10,17 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_5e09nfs",
+        "template_9bh7q9i",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "LRnK-gb72LNFhh5s0"
       )
       .then(
         (result) => {
           console.log(result.text);
+          alert("Message sent succefully");
+          // console.log("message sent succesfully");
+          console.log(e.target.reset())
         },
         (error) => {
           console.log(error.text);
@@ -29,11 +32,11 @@ const ContactForm = () => {
     <div className="form">
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="sender-Name" />
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="sender-Email" />
         <label>Message</label>
-        <textarea  className="txtar" name="message" placeholder="Message me here" />
+        <textarea  className="txtar" name="client-message" placeholder="Message me here" />
         <input className="sendcss" type="submit" value="Send" />
       </form>
     </div>

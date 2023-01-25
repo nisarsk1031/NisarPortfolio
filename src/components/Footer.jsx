@@ -37,7 +37,7 @@ export const Footer = () => {
                         
                 <FaLinkedin size={20} 
                     style={{color:"#fff", marginRight:"1rem"}}/>
-                    linkedin.in/Nisar-shaikh
+                    linkedin/Nisar-shaikh
                     
                     </h4>
                     </a>
