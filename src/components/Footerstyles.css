@@ -4,12 +4,14 @@
  padding: 6rem 0;
  background-color: rgba(19,19,19,0.8);   
 } */
+
 .footer-container{
     max-width: 1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap:40px
+    grid-gap:40px;
+
 }
 .left{
    height: 100%;
@@ -21,7 +23,9 @@
 .location{
     display: flex;
     margin-bottom: 0.8rem;
+    
 }
+
 .location p{
     line-height: 30px;
 }
@@ -42,6 +46,18 @@ h4{
 p{
     font-size: 1.2rem;
 }
+
+
+.linkedin:hover{
+    display: inline-block;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    
+    
+}
+
+
 @media screen and (max-width:640px) {
     .footer-container{
         

@@ -2,18 +2,17 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Heroimg from "../components/Heroimg"
 import { Footer } from '../components/Footer'
-// import Project from "../routes/Project"
-// import Contact from "../routes/Contact"
-// import About from "../routes/About"
+import WorkCard from '../components/WorkCard'
+import ContactForm from '../components/ContactForm'
+
 
 const Home = () => {
   return (
     <div>
          <Navbar/>
          <Heroimg/>
-         {/* <Project/>
-         <About/>
-         <Contact/> */}
+         <WorkCard/>
+         {/* <ContactForm/> */}
          <Footer/>
     </div>
   )
