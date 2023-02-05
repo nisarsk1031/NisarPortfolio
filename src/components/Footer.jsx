@@ -31,7 +31,7 @@ export const Footer = () => {
             </div>
             <div className="right">
                 <div className="social">
-                <h4>You can click below to connect me on:</h4>
+                <h4> Click below to connect me on:</h4>
                 <div className="linkedin" >
                 <a href=" https://www.linkedin.com/in/nisar-shaikh-b45260247" target="_blank">
                     <h4>
